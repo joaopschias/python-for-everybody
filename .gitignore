@@ -1,0 +1,31 @@
+# Ignore the virtual environment
+venv/
+__pycache__/
+
+# Ignore Python metadata files
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+out/
+
+# Ignore VSCode project files
+.vscode/
+*.code-workspace
+
+# Ignore system temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-specific environment or temporary files
+*.env
+*.venv
